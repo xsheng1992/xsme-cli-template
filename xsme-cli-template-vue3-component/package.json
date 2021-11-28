@@ -1,0 +1,14 @@
+{
+  "name": "@xsme-cli/vue3-component-template",
+  "version": "1.0.0",
+  "description": "xsme-cli vue3 component",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  }
+}
