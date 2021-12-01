@@ -1,6 +1,6 @@
 {
   "name": "@xsme-cli/vue3-component-template",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "xsme-cli vue3 component",
   "main": "index.js",
   "dependencies": {},
