@@ -2,14 +2,14 @@
   "name": "<%= className %>",
   "version": "<%= version %>",
   "description": "<%= description %>",
-  "main": "dist/imooc.<%= className %>.js",
+  "main": "dist/xsme.<%= className %>.js",
   "scripts": {
     "dev": "rollup -wc rollup.config.dev.js",
     "build": "eslint ./src && rollup -c rollup.config.dev.js",
     "build:prod": "eslint ./src && rollup -c rollup.config.prod.js",
     "lint": "eslint ./src"
   },
-  "author": "sam <247765564@qq.com>",
+  "author": "xsheng1992 <415441091@qq.com>",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.10.2",

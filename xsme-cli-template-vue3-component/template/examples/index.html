@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>imooc vue3 component example</title>
+    <title><%= htmlWebpackPlugin.options.title %></title>
     <script src="https://cdn.jsdelivr.net/npm/vue@3.0.0/dist/vue.global.js"></script>
-    <script src="../dist/imooc.<%= className %>.umd.js"></script>
+    <script src="../dist/xsme.<%= className %>.umd.js"></script>
   </head>
   <body>
     <div id="app">
@@ -13,7 +13,7 @@
     <script>
       Vue.createApp({
         setup() {
-          var message = 'hello imooc!'
+          var message = 'hello xsme!'
           return {
             message
           }
